@@ -7,17 +7,30 @@
     <style>
         h1{
             background-color:#add8e6;
+            text-align: center;
+            margin: 0;
+            padding: 20px 0px 20px 0px;
         }
         h2{
             background-color: blanchedalmond;
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            color:red;
+            font-weight:bold;
         }
         thead{
             background-color: antiquewhite;
         }
+        figure {
+            text-align: center;
+            margin-top: 15px !important;
+        }
          .btn {
         background-color: #00ffff; 
-        
-    }
+    
+        }
         table {
             width: 100%;
         }
@@ -30,8 +43,13 @@
             text-align: center;
         }
 
-        table, th, td {
-            border: 1px solid black;
+        th {
+            text-align: center;
+            padding: 5px 0px 5px 0px;
+        }
+        th a {
+            text-decoration: none;
+            color: rgb(13 173 253);
         }
     </style>
 </head>
@@ -52,102 +70,109 @@
         </table>
     </header>
     <main>
-        <div class="container">
+        <section id="section1" class="container-fluid">
             <div class="row">
-              <div class="col-sm">
-                <p>Potenza Innevata </p> 
-                <img src="salve.txt " />
-              </div>
-              <div class="col-sm">
-              <p>Centro storico</p>
-              <img src="centroStorico.txt" />
-              </div>
-              <div class="col-sm">
-              <p>Potenza</p>
-              <img src="foto.txt" />
-              </div>
+                <figure class="col-sm">
+                    <img src="salve.txt " />
+                    <figcaption>Potenza Innevata</figcaption>
+                  </figure>
+                  <figure class="col-sm">
+                    <img src="centroStorico.txt" />
+                    <figcaption>Centro storico</figcaption>
+                  </figure>
+                  <figure class="col-sm">
+                    <img src="foto.txt" />
+                    <figcaption>Potenza</figcaption>
+                  </figure>
             </div>
-          </div>
-        
-        <section id="section1">
             <p>
                 Potenza, capoluogo della Basilicata, è una città che incarna la bellezza e la storia di una regione ricca di tradizioni. Situata su un’altura a circa 819 metri sul livello del mare, è conosciuta come la città più alta d’Italia. Le sue strade strette e tortuose, insieme ai caratteristici vicoli, offrono un’atmosfera affascinante e un forte senso di comunità.
                 Il centro storico è punteggiato da antichi palazzi, chiese e monumenti, tra cui spicca la Cattedrale di San Gerardo, che risale al XII secolo e presenta un’elegante facciata romanica. Il panorama che si può godere dai punti panoramici della città è mozzafiato, con la vista che si estende sulle colline circostanti e sul fiume Basento.
                 Potenza è anche un importante centro culturale, con eventi e festival che celebrano le tradizioni lucane, come il famoso "Carnival di Potenza". La gastronomia locale è un’altra attrazione: i piatti tipici, come la pasta fatta in casa e i salumi, riflettono il legame profondo con la terra.
             </p>
         </section>
-        <h2>Qui troverete tutto ciò che riguarda il capoluogo della Basilicata</h2>
-        <table>
-            <tr>
-                <td>In questa immagine vediamo il centro storico di Potenza</td>
-                <td><img src="./potenza.jpg" /></td>
-            </tr>
-        </table>
+        <section id="section2" class="container-fluid">
+            <h2>Qui troverete tutto ciò che riguarda il capoluogo della Basilicata</h2>
+            <figure>
+                <img src="./potenza.jpg" alt=""/> 
+                <figcaption>In questa immagine vediamo il centro storico di Potenza</figcaption>
+            </figure>
+            <p><b style="color: black;">Descrizione storica</b>: Il territorio di Potenza è stato abitato fin dall'epoca preistorica, come dimostrano i reperti archeologici rinvenuti nella zona. La città stessa è stata fondata dai Lucani, un popolo di origine italica nel IV secolo a.C.</p>
+            <h3>I principali luoghi da visitare a Potenza sono:</h3> 
+              
+            <figure class="col-sm">
+                <img src="./SanGerardo.jpg" />
+                <figcaption>La cattedrale di San Gerardo è situata nel centro di Potenza ed è uno dei principali luoghi di culto della città. La cattedrale è dedicata a San Gerardo, il patrono di Potenza.</figcaption>
+              </figure>
+
+
+              <figure class="col-sm">
+                <img src="./Musmeci.jpg" />  
+                <figcaption> Il ponte Musmeci è un'icona dell'architettura moderna, progettato dall'ingegner Sergio Musmeci. È considerato uno dei ponti più innovativi d'Italia. Si distingue per le sue forme fluide e organiche.</figcaption>
+              </figure>
+
+
+              <figure class="col-sm">
+                <img src="./villa.jpg" /> 
+                <figcaption> La Villa Romana di Malvaccaro  questa struttura presenta i resti di una villa romana con splendidi mosaici pavimentali. È una testimonianza importante della presenza romana in Basilicata.</figcaption>
+              </figure>
+
+
+              <figure class="col-sm">
+                <img src="./torre.jpg" />  
+                <figcaption> La Torre Guevara è situata nei pressi della villa comunale, ed è l'unica parte superstite del castello Normanno-svevo. La torre offre una vista sulla città ed è utilizzata per eventi culturali e mostre.</figcaption>
+              </figure>
+
+
+              <figure class="col-sm">
+                <img src="./villa1.jpg" />
+                <figcaption> La villa comunale di Santa Maria è un parco pubblico situato in posizione panoramica, ideale per rilassarsi e godere di una passeggiata tra gli alberi. La villa comunale offre una vista spettacolare della città e delle montagne circostanti.  </figcaption>
+              </figure>
+
+              <p style="text-align: center;"> 
+                <a href="https://www.gobasilicata.it/cosa-vedere-potenza/#:~:text=Capoluogo%20della%20#Basilicata,%20#Potenza%20%C3%A8%20la%20citt%C3%A0%20delle%20100%20scale.">Per altri consigli, clicca qui</a>
+            </p>
+        </section>
         
-        <p>
-            <b style="color: black;">Descrizione storica</b>: Il territorio di Potenza è stato abitato fin dall'epoca preistorica, come dimostrano i reperti archeologici rinvenuti nella zona. La città stessa è stata fondata dai Lucani, un popolo di origine italica nel IV secolo a.C.
-        </p>
-        <p>
-            <section id="section2">
-                <h3><b style="color:red;">I principali luoghi da visitare a Potenza sono:</b></h3>  
-                <ol type="1">
-                    <li>
-                       <img src="./SanGerardo.jpg" />
-                        La cattedrale di San Gerardo è situata nel centro di Potenza ed è uno dei principali luoghi di culto della città. La cattedrale è dedicata a San Gerardo, il patrono di Potenza.
-                    </li>
-                    <li>
-                      <img src="./Musmeci.jpg" />  
-                        Il ponte Musmeci è un'icona dell'architettura moderna, progettato dall'ingegner Sergio Musmeci. È considerato uno dei ponti più innovativi d'Italia. Si distingue per le sue forme fluide e organiche.
-                    </li>
-                    <li>
-                      <img src="./villa.jpg" /> 
-                        La Villa Romana di Malvaccaro  questa struttura presenta i resti di una villa romana con splendidi mosaici pavimentali. È una testimonianza importante della presenza romana in Basilicata.
-                    </li>
-                    <li>
-                       <img src="./torre.jpg" />  
-                       La Torre Guevara è situata nei pressi della villa comunale, ed è l'unica parte superstite del castello Normanno-svevo. La torre offre una vista sulla città ed è utilizzata per eventi culturali e mostre.
-                    </li>
-                    <li>
-                       <img src="./villa1.jpg" />
-                        La villa comunale di Santa Maria è un parco pubblico situato in posizione panoramica, ideale per rilassarsi e godere di una passeggiata tra gli alberi. La villa comunale offre una vista spettacolare della città e delle montagne circostanti.  
-                    </li>
-                </ol>
-            </section>
-        </p>
-        <p> 
-            <a href="https://www.gobasilicata.it/cosa-vedere-potenza/#:~:text=Capoluogo%20della%20#Basilicata,%20#Potenza%20%C3%A8%20la%20citt%C3%A0%20delle%20100%20scale.">Clicca Qui</a>
-        </p>
-        <p> 
-            <section id="section3">
-                <b style="color: black;">La cucina tipica di Potenza:</b>
-                <ol type="1">
-                    <li>
-                       <img src="./orecchiette.jpg" />  <b style="color:red;">Le orecchiette con le cime di rapa:</b> 
-                        Uno dei piatti più iconici della Basilicata. Le orecchiette, una pasta fresca a forma di piccole orecchie, sono abbinate a cime di rapa (broccoli) e condite con aglio, olio d'oliva e peperoncino. Questo piatto è un perfetto esempio della cucina povera, ma ricca di sapore.
-                    </li>
-                    <li>
-                      <img src="./peperoni.jpg" />   <b style="color: red;">I peperoni Cruschi:</b> 
-                        Questi peperoni dolci, essiccati e fritti, sono un antipasto molto popolare. Serviti croccanti, possono essere utilizzati anche come condimento per altri piatti, aggiungendo un tocco di sapore affumicato e dolce.
-                    </li>
-                    <li>
-                        <img src="./strascinati.jpg" /> <b style="color:red;">Gli Strascinati:</b> 
-                        Gli strascinati sono una pasta fresca tipica della Basilicata, in particolare di Potenza. Hanno una forma simile alle orecchiette, ma sono più larghi e schiacciati. Preparati con farina di semola e acqua, vengono spesso conditi con sughi di carne, pomodoro fresco o verdure come le cime di rapa. La loro preparazione è tradizionale e rappresenta un legame profondo con la cultura culinaria lucana, rendendoli un piatto simbolico della cucina locale. 
-                    </li>
-                    <li>
-                    <img src="./pasta.jpg" />    <b style="color:red;">Pasta e fagioli:</b> 
-                        La pasta e fagioli è un piatto tradizionale italiano, particolarmente popolare in Basilicata. Si tratta di una zuppa densa preparata con pasta, spesso tubetti o ditalini, e fagioli borlotti, arricchita con pomodoro, aglio e olio d'oliva.
-                    </li>
-                </ol>
-            </section>
-        </p>
-        <section id="section4"></section>
-        <h3><b style="color:red;">Il Potenza Calcio:</b> <img src="./potenza1.jpg" />
-            Il Potenza Calcio è una storica squadra di calcio con sede a Potenza, fondata nel 1919. I colori sociali del club sono il rosso e il blu. La squadra gioca le sue partite casalinghe allo Stadio Viviani, un impianto con una capacità di circa 8.000 spettatori, noto per l'atmosfera vivace che i tifosi creano durante le gare.
+        
+         
+        <section id="section3">
+            <h3>La cucina tipica di Potenza:</h3>
+            <figure class="col-sm">
+                <img src="./orecchiette.jpg" />
+                <figcaption><span>Le orecchiette con le cime di rapa: </span> Uno dei piatti più iconici della Basilicata. Le orecchiette, una pasta fresca a forma di piccole orecchie, sono abbinate a cime di rapa (broccoli) e condite con aglio, olio d'oliva e peperoncino. Questo piatto è un perfetto esempio della cucina povera, ma ricca di sapore.</figcaption>
+            </figure>
+
+            <figure class="col-sm">
+                <img src="./peperoni.jpg" />
+                <figcaption><span>I peperoni Cruschi: </span> Questi peperoni dolci, essiccati e fritti, sono un antipasto molto popolare. Serviti croccanti, possono essere utilizzati anche come condimento per altri piatti, aggiungendo un tocco di sapore affumicato e dolce.</figcaption>
+            </figure>
+
+            <figure class="col-sm">
+                <img src="./strascinati.jpg" />
+                <figcaption><span>Gli Strascinati: </span> Gli strascinati sono una pasta fresca tipica della Basilicata, in particolare di Potenza. Hanno una forma simile alle orecchiette, ma sono più larghi e schiacciati. Preparati con farina di semola e acqua, vengono spesso conditi con sughi di carne, pomodoro fresco o verdure come le cime di rapa. La loro preparazione è tradizionale e rappresenta un legame profondo con la cultura culinaria lucana, rendendoli un piatto simbolico della cucina locale. </figcaption>
+            </figure>
+
+            <figure class="col-sm">
+                <img src="./pasta.jpg" /> 
+                <figcaption><span>Pasta e fagioli </span> La pasta e fagioli è un piatto tradizionale italiano, particolarmente popolare in Basilicata. Si tratta di una zuppa densa preparata con pasta, spesso tubetti o ditalini, e fagioli borlotti, arricchita con pomodoro, aglio e olio d'oliva. </figcaption>
+            </figure>
+        </section>
+        
+        <section id="section4" class="container-fluid"></section>
+        <h3>Il potenza calcio:</h3>
+        <figure class="col-sm">
+            <img src="./potenza1.jpg" />
+       
+            <figcaption>Stemma del Potenza Calcio</figcaption>
+        </figure>
+        <p>Il Potenza Calcio è una storica squadra di calcio con sede a Potenza, fondata nel 1919. I colori sociali del club sono il rosso e il blu. La squadra gioca le sue partite casalinghe allo Stadio Viviani, un impianto con una capacità di circa 8.000 spettatori, noto per l'atmosfera vivace che i tifosi creano durante le gare.
 
             Negli anni, il Potenza ha attraversato diverse categorie del calcio italiano, dalla Serie A fino alla Serie C. La squadra ha una lunga tradizione e ha vissuto momenti di grande successo, inclusi campionati vinti e promozioni. La rivalità più sentita è con il Matera, con cui disputa il "derby lucano", un evento molto atteso dai tifosi di entrambe le città.
 
             Oltre alla prima squadra, il Potenza Calcio è attivo anche nel settore giovanile, contribuendo allo sviluppo di talenti locali e creando un legame profondo con la comunità. I sostenitori del Potenza, noti per la loro passione, seguono la squadra con grande entusiasmo, rendendo ogni partita un evento speciale.
-        </h3>
+        </p>
+       
         <b style="color: black;">Trofei vinti dal Potenza Calcio:</b>
         <ol type="1">
             <li>
